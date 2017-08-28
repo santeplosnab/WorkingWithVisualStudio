@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Include="wwwroot\css\first.css" />
+    <Content Include="wwwroot\css\second.css" />
+    <Content Include="wwwroot\js\fourth.js" />
+    <Content Include="wwwroot\js\third.js" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
