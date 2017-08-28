@@ -26,6 +26,7 @@ namespace WorkingWithVisualStudio
                 app.UseExceptionHandler("/error");
             }
 
+            app.UseStaticFiles();
             app.UseBrowserLink();
             app.UseMvcWithDefaultRoute();
         }
