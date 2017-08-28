@@ -9,8 +9,8 @@
   {
     "outputFileName": "wwwroot/js/bundle.js",
     "inputFiles": [
-      "wwwroot/js/fourth.js",
-      "wwwroot/js/third.js"
+      "wwwroot/js/third.js",
+      "wwwroot/js/fourth.js"
     ]
   }
 ]
