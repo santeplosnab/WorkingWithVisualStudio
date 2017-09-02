@@ -9,11 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="xunit" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\WorkingWithVisualStudio\WorkingWithVisualStudio.csproj" />
+    <ProjectReference Include="..\..\WorkingWithVisualStudio\WorkingWithVisualStudio.csproj">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
